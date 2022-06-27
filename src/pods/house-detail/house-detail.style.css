@@ -1,0 +1,47 @@
+.title {
+  display: flex;
+  gap: 20px;
+  padding: 0px 20px;
+  align-items: center;
+}
+
+.title img {
+  width: 50px;
+}
+
+.title h1 {
+  flex: 1;
+  font-size: 50px;
+}
+
+.detail {
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.detail img {
+  width: 50%;
+}
+
+.detail div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reviewContent {
+  display: flex;
+  gap: 20px;
+  padding: 0px 20px;
+  flex-direction: column;
+}
+
+.reviewContent h1 {
+  margin: 0px;
+}
+
+.review {
+  border: 5px solid black;
+  padding: 5px 20px;
+}
