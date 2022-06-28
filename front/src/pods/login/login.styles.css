@@ -1,0 +1,20 @@
+.login_root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_container {
+  -webkit-box-shadow: 5px 5px 15px -8px #000000;
+  box-shadow: 5px 5px 15px -8px #000000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.login_button {
+  margin-top: 15px;
+}
