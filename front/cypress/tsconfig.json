@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "strict": true,
+    "type":"module",
+    "baseUrl": "../node_modules",
+    "lib": ["es5", "dom"],
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "allowJs": true,
+    "types": ["cypress", "@testing-library/cypress"]
+  },
+  "include": ["**/*.ts"]
+}

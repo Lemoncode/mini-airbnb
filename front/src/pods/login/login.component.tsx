@@ -24,10 +24,16 @@ export const LoginComponent: React.FC<Props> = (props) => {
   return (
     <div className="login_root">
       <div className="login_container">
-        <label>Email</label>
-        <input value={user.login} onChange={handleChange('login')} />
-        <label>Contraseña</label>
+        <label htmlFor="email">Email</label>
         <input
+          id="email"
+          placeholder="Email"
+          value={user.login}
+          onChange={handleChange('login')}
+        />
+        <label htmlFor="password">Contraseña</label>
+        <input
+          id="password"
           type="password"
           value={user.password}
           onChange={handleChange('password')}

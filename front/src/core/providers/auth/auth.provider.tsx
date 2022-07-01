@@ -43,6 +43,7 @@ export const AuthProvider: React.FC<PropsWithChildrenOnly> = (props) => {
       .then(() => {
         setValue({ ...value, logout, isLoggedIn: true });
       })
+      .catch(() => setValue({ ...value, isLoggedIn: false }))
       .finally(() => setReady(true));
   }, []);
 

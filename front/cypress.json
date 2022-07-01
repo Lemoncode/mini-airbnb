@@ -1,0 +1,12 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "testFiles": "**/*.feature",
+  "defaultCommandTimeout": 10000,
+  "reporter": "junit",
+  "screenshotsFolder": "cypress/reports/screenshots",
+  "videosFolder": "cypress/reports/videos",
+  "reporterOptions": {
+    "mochaFile": "cypress/reports/output.xml",
+    "toConsole": true
+  }
+}
